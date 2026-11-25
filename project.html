@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Daily Routine Flowchart</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<style>
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f0f4ff;
+}
+h1 {
+  color: #2455a4;
+}
+.mermaid {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+</style>
+</head>
+<body>
+
+<h1>My Daily Routine Flowchart</h1>
+
+<div class="mermaid">
+flowchart TD
+ A([Start]) --> B[Wake Up]
+ B --> C[Brush Teeth]
+ C --> D[Take a Bath]
+ D --> E[Get Ready for School]
+ E --> F[Have Breakfast]
+ F --> G[Go to School]
+ G --> H[Attend Classes]
+ H --> I[Return Home]
+ I --> J[Have Lunch]
+ J --> K[Take Rest]
+ K --> L[Complete Homework]
+ L --> M[Play Games]
+ M --> N[Have Dinner]
+ N --> O[Prepare for Tomorrow]
+ O --> P[Go to Bed]
+ P --> Q([End])
+</div>
+
+<script>
+mermaid.initialize({startOnLoad:true});
+</script>
+
+</body>
+</html>
